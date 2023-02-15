@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+anim in_bottom
+anim in_left
+anim in_right
+anim in_top
+anim out_bottom
+anim out_left
+anim out_right
+anim out_top
+attr? marqueeAnimDuration
+attr? smvTextColor
+attr? smvTextEllipsize
+attr? smvTextGravity
+attr? smvTextSingleLine
+attr? smvTextSize
+id end
+id middle
+id none
+id start
+string app_name
+styleable MarqueeView marqueeAnimDuration
+styleable SimpleMarqueeView smvTextColor smvTextSize smvTextGravity smvTextSingleLine smvTextEllipsize

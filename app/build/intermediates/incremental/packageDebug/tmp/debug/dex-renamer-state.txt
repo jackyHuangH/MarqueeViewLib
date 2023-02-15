@@ -1,0 +1,16 @@
+#Wed Feb 15 09:25:36 CST 2023
+path.3=0/classes.dex
+path.2=8/classes.dex
+path.1=11/classes.dex
+renamed.4=classes5.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+base.4=/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+renamed.0=classes.dex
+base.3=/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex
+base.1=/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/build/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex
+base.0=/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+path.4=11/classes.dex

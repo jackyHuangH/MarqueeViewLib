@@ -1,0 +1,132 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jacky.marquee"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml
+10
+11    <!-- To store the heap dumps and leak analysis results. -->
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:25:5-80
+12-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:25:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:26:5-81
+13-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:26:22-78
+14
+15    <application
+15-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:5:5-19:19
+16        android:name="com.demo.marquee.MainApplication"
+16-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:6:9-40
+17        android:allowBackup="true"
+17-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:7:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] /Users/hzj/.gradle/caches/transforms-2/files-2.1/e3a25a6ab6fddcf1e2b54647ed5d5556/core-1.7.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:8:9-43
+21        android:label="@string/app_name"
+21-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:9:9-41
+22        android:supportsRtl="true"
+22-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:10:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:11:9-40
+25        <activity android:name="com.demo.marquee.MainActivity" >
+25-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:12:9-18:20
+25-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:12:19-47
+26            <intent-filter>
+26-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:13:13-17:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:14:17-69
+27-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:14:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:16:17-77
+29-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:16:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <service
+33-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:29:9-32:45
+34            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+34-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:30:13-80
+35            android:enabled="false"
+35-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:31:13-36
+36            android:process=":leakcanary" />
+36-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:32:13-42
+37        <service
+37-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:33:9-35:39
+38            android:name="com.squareup.leakcanary.DisplayLeakService"
+38-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:34:13-70
+39            android:enabled="false" />
+39-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:35:13-36
+40
+41        <activity
+41-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:37:9-49:20
+42            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+42-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:38:13-80
+43            android:enabled="false"
+43-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:39:13-36
+44            android:icon="@drawable/leak_canary_icon"
+44-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:40:13-54
+45            android:label="@string/leak_canary_display_activity_label"
+45-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:41:13-71
+46            android:taskAffinity="com.squareup.leakcanary"
+46-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:42:13-59
+47            android:theme="@style/leak_canary_LeakCanary.Base" >
+47-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:43:13-63
+48            <intent-filter>
+48-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:13:13-17:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:14:17-69
+49-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:14:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:16:17-77
+51-->/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/src/main/AndroidManifest.xml:16:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:50:9-56:68
+55            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+55-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:51:13-93
+56            android:enabled="false"
+56-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:52:13-36
+57            android:icon="@drawable/leak_canary_icon"
+57-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:53:13-54
+58            android:label="@string/leak_canary_storage_permission_activity_label"
+58-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:54:13-82
+59            android:taskAffinity="com.squareup.leakcanary"
+59-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:55:13-59
+60            android:theme="@style/leak_canary_Theme.Transparent" />
+60-->[com.squareup.leakcanary:leakcanary-android:1.5] /Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/AndroidManifest.xml:56:13-65
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/hzj/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/hzj/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+64            android:authorities="com.jacky.marquee.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/hzj/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/hzj/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.0.0] /Users/hzj/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.0.0] /Users/hzj/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/hzj/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hzj/.gradle/caches/transforms-2/files-2.1/07e953f5e31edeb519550c0d32dec9da/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hzj/.gradle/caches/transforms-2/files-2.1/07e953f5e31edeb519550c0d32dec9da/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hzj/.gradle/caches/transforms-2/files-2.1/07e953f5e31edeb519550c0d32dec9da/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+72        </provider>
+73    </application>
+74
+75</manifest>

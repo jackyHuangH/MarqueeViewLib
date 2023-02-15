@@ -1,0 +1,18 @@
+com/jacky/marqueen/SimpleMF.java
+ com.jacky.marqueen.SimpleMF
+com/jacky/marqueen/util/Util.java
+ com.jacky.marqueen.util.Util
+com/jacky/marqueen/util/AnimationListenerAdapter.java
+ com.jacky.marqueen.util.AnimationListenerAdapter
+com/jacky/marqueen/util/OnItemClickListener.java
+ com.jacky.marqueen.util.OnItemClickListener
+com/jacky/marqueen/MarqueeFactory.java
+ com.jacky.marqueen.MarqueeFactory
+com/jacky/marqueen/MarqueeView.java
+ com.jacky.marqueen.MarqueeView
+ com.jacky.marqueen.MarqueeView$1
+ com.jacky.marqueen.MarqueeView$2
+com/jacky/marqueen/BuildConfig.java
+ com.jacky.marqueen.BuildConfig
+com/jacky/marqueen/SimpleMarqueeView.java
+ com.jacky.marqueen.SimpleMarqueeView

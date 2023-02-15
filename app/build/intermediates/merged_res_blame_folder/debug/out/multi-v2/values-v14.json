@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hzj/LearningProjects/MarqueeViewLib/MarqueeViewLibrary/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "/Users/hzj/.gradle/caches/transforms-2/files-2.1/159ca3b359cbb87afe69f2e90251a30e/leakcanary-android-1.5/res/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "10",
+                        "endOffsets": "136"
+                    }
+                }
+            ]
+        }
+    ]
+}
