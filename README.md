@@ -2,7 +2,7 @@
 一个很方便使用和扩展的跑马灯Library，通过提供不同的MarqueeFactory来定制不同的跑马灯View，
 并且提供了常用类型的跑马灯效果：SimpleMarqueeView
 
-## 原作者项目地址：https://github.com/gongwen/MarqueeViewLibrary，改成AndroidX依赖
+## 升级gradle依赖和AndroidX,原作者项目地址：https://github.com/gongwen/MarqueeViewLibrary
 
 效果图
 ---
@@ -11,7 +11,7 @@
 
 示例Apk下载
 ---
-[示例Apk下载](https://github.com/jacky/MarqueeViewLibrary/raw/master/sample-apk/app-debug-1.1.3.apk)
+[示例Apk下载](https://github.com/jackyHuangH/MarqueeViewLib/blob/main/apk/marqueeView-debug.apk)
 
 ## 使用
 
