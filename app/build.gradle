@@ -28,6 +28,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.5.0'
     testImplementation 'junit:junit:4.12'
     implementation project(':marqueelibrary')
+    //远程依赖方式
+//    implementation 'com.github.jackyHuangH:MarqueeViewLib:1.0.0'
 
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5'
 //    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'

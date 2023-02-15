@@ -16,7 +16,15 @@
 ## 使用
 
 ### Gradle:
-implementation 'com.jacky:marqueelibrary:1.1.3'
+1.在工程目录的build.gradle中添加：
+    allprojects {
+  		repositories {
+  			...
+  			maven { url 'https://jitpack.io' }
+  		}
+  	}
+2.添加组件依赖：
+ implementation 'com.github.jackyHuangH:MarqueeViewLib:1.0.0'
 
 ### 属性
 MarqueeView属性
