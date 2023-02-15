@@ -11,7 +11,7 @@
 
 示例Apk下载
 ---
-[示例Apk下载](https://github.com/jackyHuangH/MarqueeViewLib/blob/main/apk/marqueeView-debug.apk)
+[示例Apk下载](https://raw.githubusercontent.com/jackyHuangH/MarqueeViewLib/main/apk/marqueeView-debug.apk)
 
 ## 使用
 
