@@ -7,11 +7,11 @@
 效果图
 ---
 
-<img src="/screenshot/screen_shot.gif"/>
+<img src="/raw/screen_shot.gif"/>
 
 示例Apk下载
 ---
-[示例Apk下载](https://raw.githubusercontent.com/jackyHuangH/MarqueeViewLib/main/apk/marqueeView-debug.apk)
+[示例Apk下载](https://raw.githubusercontent.com/jackyHuangH/MarqueeViewLib/main/raw/marqueeView-debug.apk)
 
 ## 使用
 
