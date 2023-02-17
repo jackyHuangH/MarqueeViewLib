@@ -39,7 +39,7 @@
                 app:smvTextEllipsize="end"
                 app:smvTextGravity="center_vertical"
                 app:smvTextSingleLine="true"
-                app:smvTextSize="15sp"></com.jacky.marqueen.SimpleMarqueeView>
+                app:smvTextSize="15sp" />
 
         </LinearLayout>
 
@@ -72,7 +72,7 @@
                 android:outAnimation="@anim/out_bottom"
                 app:smvTextColor="@color/yellow"
                 app:smvTextGravity="center_vertical"
-                app:smvTextSize="15sp"></com.jacky.marqueen.SimpleMarqueeView>
+                app:smvTextSize="15sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -108,17 +108,17 @@
                 app:marqueeAnimDuration="500"
                 app:smvTextColor="@color/white"
                 app:smvTextGravity="center_vertical"
-                app:smvTextSize="15sp"></com.jacky.marqueen.SimpleMarqueeView>
+                app:smvTextSize="15sp" />
         </LinearLayout>
 
         <com.jacky.marqueen.MarqueeView
             android:id="@+id/marqueeView4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/bg_large_oval_radius"></com.jacky.marqueen.MarqueeView>
+            android:background="@drawable/bg_large_oval_radius" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -151,7 +151,7 @@
                 app:marqueeAnimDuration="2000"
                 app:smvTextColor="@color/white"
                 app:smvTextGravity="center_vertical"
-                app:smvTextSize="15sp"></com.jacky.marqueen.SimpleMarqueeView>
+                app:smvTextSize="15sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -185,7 +185,7 @@
                 app:marqueeAnimDuration="2000"
                 app:smvTextColor="@color/white"
                 app:smvTextGravity="center_vertical"
-                app:smvTextSize="15sp"></com.jacky.marqueen.SimpleMarqueeView>
+                app:smvTextSize="15sp" />
         </LinearLayout>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

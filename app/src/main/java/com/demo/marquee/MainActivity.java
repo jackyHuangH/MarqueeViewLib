@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.text.Html;
 import android.text.Spanned;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private SimpleMarqueeView<String> marqueeView1, marqueeView2, marqueeView5, marqueeView6;
     private SimpleMarqueeView<Spanned> marqueeView3;
     private ImageView yellowSpeaker;
-    private MarqueeView<RelativeLayout, ComplexItemEntity> marqueeView4;
+    private MarqueeView<LinearLayout, ComplexItemEntity> marqueeView4;
 
     private WeakHandler mHandler = new WeakHandler();
 
@@ -93,18 +93,18 @@ public class MainActivity extends AppCompatActivity {
     private void initMarqueeView4() {
         List<ComplexItemEntity> complexDatas = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
-            complexDatas.add(new ComplexItemEntity("标题 " + i, "副标题 " + i, "时间 " + i));
+            complexDatas.add(new ComplexItemEntity("标题 " + i, "APP机构贷APP机构贷 " + i, "时间 " + i));
         }
-        MarqueeFactory<RelativeLayout, ComplexItemEntity> marqueeFactory = new ComplexViewMF(MainActivity.this);
+        MarqueeFactory<LinearLayout, ComplexItemEntity> marqueeFactory = new ComplexViewMF(MainActivity.this);
 
         marqueeFactory.setData(complexDatas);
-        marqueeView4.setOnItemClickListener(new OnItemClickListener<RelativeLayout, ComplexItemEntity>() {
+        marqueeView4.setOnItemClickListener(new OnItemClickListener<LinearLayout, ComplexItemEntity>() {
             @Override
-            public void onItemClickListener(RelativeLayout mView, ComplexItemEntity mData, int mPosition) {
+            public void onItemClickListener(LinearLayout mView, ComplexItemEntity mData, int mPosition) {
                 Toast.makeText(MainActivity.this, String.format("mPosition:%s,mData:%s,mView:%s,.", mPosition, mData, mView), Toast.LENGTH_SHORT).show();
             }
         });
-        marqueeView4.setInAndOutAnim(R.anim.in_top, R.anim.out_bottom);
+//        marqueeView4.setInAndOutAnim(R.anim.in_top, R.anim.out_bottom);
         marqueeView4.setMarqueeFactory(marqueeFactory);
         marqueeView4.startFlipping();
     }
